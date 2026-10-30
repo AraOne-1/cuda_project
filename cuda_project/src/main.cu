@@ -3,6 +3,7 @@
 #include <climits>
 #include <cfloat>
 #include <sstream>
+#include <math_constants.h>
 
 #define CUDA_CHECK(expr) do { \
     cudaError_t rc = (expr); \
